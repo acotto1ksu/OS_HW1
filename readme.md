@@ -1,5 +1,6 @@
 # Producer Cosnumer Problem
-This program utilizes semaphores and mutual exclusive access to shared data to create a shared memory buffer containing data. The program is made up of two parts: a producer and a consumer. The producer adds data onto the buffer, while the consumer takes the data from the buffer (without necessairly overwriting it), and displays it out, signaling the producer that it may overwrite the value.
+This program utilizes semaphores and mutual exclusive access to shared data to create a shared memory buffer containing data. The program is made up of two parts: a producer and a consumer. The producer adds data onto the buffer, while the consumer takes the data from the buffer (without necessairly overwriting it), and displays it. It then signals the producer that it may overwrite the value. The consumer and producer both run for 20 iterations.
+
 
 ## Usage
 Compile on a Linux/UNIX machine using g++:
